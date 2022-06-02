@@ -21,14 +21,12 @@ public class FlightPageEvents  {
 
     public void ClickOnTheRoundTripButton() throws InterruptedException {
         ElementFetch elementFetch = new ElementFetch();
-        TestBase.logger.info("Clicking on Round Trip Button");
         elementFetch.getWebElement("XPATH", FlightPageObjects.RoundTripButton).click();
         Thread.sleep(2000);
     }
 
     public void ClickOneWayButton() throws InterruptedException {
         ElementFetch elementFetch = new ElementFetch();
-        TestBase.logger.info("");
         elementFetch.getWebElement("XPATH", FlightPageObjects.OneWayButton).click();
         Thread.sleep(2000);
     }
