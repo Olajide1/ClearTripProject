@@ -5,7 +5,7 @@ This repo consists of test cases created for this page: https://test.core.simple
 1. Have Java installed on your machine. Java 16 was used
 
 2. Clone the repo by first navigating to the the folder on your terminal that you want to create the project then run:
-`git clone `
+`git clone https://github.com/Olajide1/ClearTripProject.git `
 
 or clone directly on preferred IDE 
 
