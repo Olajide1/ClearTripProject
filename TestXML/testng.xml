@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Jide's Suite">
+    <listeners>
+        <listener class-name="TestUtils.SuiteListener"/>
+    </listeners>
+    <test name="QA ASSESSMENT AUTOMATION">
+        <parameter name="browserName" value="chrome">
+            <classes>
+                <class name="modules.Flight">
+                    <methods>
+                        <include name="QaAssessmentTest"/>
+                    </methods>
+                    
+                </class>
+            </classes>
+        </parameter>
+    </test>
+</suite>
